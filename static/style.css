@@ -1,0 +1,169 @@
+/* body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.navbar {
+    background: linear-gradient(90deg, #1d2671, #c33764);
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+    font-weight: 500;
+}
+
+.btn-custom {
+    background: linear-gradient(90deg, #ff512f, #dd2476);
+    color: white;
+    border: none;
+}
+
+.btn-custom:hover {
+    opacity: 0.9;
+}
+
+.table thead {
+    background-color: #343a40;
+    color: white;
+}
+
+.result-box {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+} */
+
+/* 
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar {
+    background: linear-gradient(90deg, #1d2671, #c33764);
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+    font-weight: 500;
+}
+
+.page-container {
+    margin-top: 80px;
+}
+
+.card {
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+.card-title {
+    font-weight: 600;
+}
+
+.btn-custom {
+    background: linear-gradient(90deg, #ff512f, #dd2476);
+    color: white;
+    border: none;
+}
+
+.btn-custom:hover {
+    opacity: 0.9;
+}
+
+.table thead {
+    background: #343a40;
+    color: white;
+}
+
+.badge-grade {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+}
+
+.result-card {
+    background: white;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+} */
+
+
+/* ---------- GLOBAL ---------- */
+body {
+    min-height: 100vh;
+    background: linear-gradient(-45deg, #667eea, #764ba2, #ff758c, #ff7eb3);
+    background-size: 400% 400%;
+    animation: gradientBG 12s ease infinite;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* ---------- NAVBAR ---------- */
+.navbar {
+    background: rgba(0,0,0,0.3);
+    backdrop-filter: blur(10px);
+}
+.navbar .nav-link {
+    margin: 0 15px;
+}
+.navbar-brand, .nav-link {
+    color: #fff !important;
+    font-weight: 500;
+}
+
+/* ---------- CONTAINER ---------- */
+.page-container {
+    margin-top: 100px;
+}
+
+/* ---------- GLASS CARD ---------- */
+.card {
+    background: rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+    border: 1px solid rgba(255,255,255,0.25);
+}
+
+/* ---------- INPUT ---------- */
+.form-control {
+    border-radius: 12px;
+    padding: 12px;
+}
+
+/* ---------- BUTTON ---------- */
+.btn-custom {
+    background: linear-gradient(90deg, #ff512f, #dd2476);
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 12px;
+    font-weight: 500;
+}
+
+.btn-custom:hover {
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+
+/* ---------- TEXT ---------- */
+h3 {
+    font-weight: 600;
+}
+
+.text-muted {
+    color: #eee !important;
+}
